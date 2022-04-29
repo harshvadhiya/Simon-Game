@@ -4,13 +4,15 @@ var userClickedPattern = [];
 var started=false;
 var level = 0;
 
-$("*").keypress(function(){
+$(".start").click(function(){
     if(!started){
         $("h1").text("Level "+level);
         nextSequence();
         started = true;
+        $(this).text("Start");
+        $(this).addClass("none");
     }
-});
+})
 
 $(".btn").click(function() {
     var userChosenColour = $(this).attr("id");
@@ -44,7 +46,9 @@ function checkAnswer(currentLevel){
             $("body").removeClass("game-over");
         }, 200);
 
-        $("h1").text("Game Over, Press Any Key to Restart");
+        $("h1").text("Game Over, Press Below Button to Restart");
+        $(".start").text("Restart");
+        $(".start").removeClass("none");
         startOver();
       }
 }
