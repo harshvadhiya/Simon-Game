@@ -4,7 +4,7 @@
 
   - This game generates a different sounds and different colors when a button is pressed. it helps user to remember the sequence of the buttons that are signaled by the      game.
 
-How to play:
+### How to play:
 
   - Press the START button. Game will give the first signal. Repeat the signal by pressing the same color lens.
 
