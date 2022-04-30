@@ -11,6 +11,16 @@ body {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 1000px){
+  .container{
+    /* background-color: red; */
+    margin: auto;
+    padding: auto;
+    padding-top: 50%;
+    padding-bottom: 50%;
+  }  
+}
+
 .container {
   display: block;
   margin: auto;
