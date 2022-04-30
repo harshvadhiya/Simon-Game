@@ -1,4 +1,4 @@
-#Simon Game
+# Simon-Game
 
    it is an old school game that sharpens your short memory skills.
 
